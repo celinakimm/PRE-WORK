@@ -1,0 +1,95 @@
+/* fonts */
+@font-face {
+    font-family: 'bebasreg';
+    src:url('../fonts/bebasreg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebasbook';
+    src:url('../fonts/bebasbook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src:url('../fonts/helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* website css */
+
+body{
+    font-family: 'helvetica';
+    text-align: center;
+    padding-bottom: 70px;
+    background-color: #fafaf6;
+}
+
+h2{
+    font-family: 'bebasreg';
+    font-size: 50px;
+    letter-spacing: 7px;
+    color: #c97b8b;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%; 
+    height: auto;
+    border: 20px solid #dbdbdb;
+    border-radius: 15px;
+}
+
+img:hover{
+    filter: grayscale(200%);
+}
+
+figcaption{
+    font-family: 'bebasbook';
+    letter-spacing: 5px;
+    color: #6e6e6e;
+    padding-bottom: 30px;
+}
+
+.description h3 {
+    font-family: 'bebasreg';
+    font-size: 35px;
+    letter-spacing: 3px;
+    color:  #c97b8b;
+}
+
+.description p{
+    font-size: 18px;
+    letter-spacing: .8px;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+form{
+    padding: 1em;
+    margin-top: 4em;
+    margin-left: 10em;
+    margin-right: 10em;
+    border: 3px solid #dbdbdb;
+    border-radius: 10px;
+    font-family: 'bebasreg';
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+form div, div{
+    margin-top: 1em;
+}
+
+#submit{
+    font-size: 15px;
+    padding: 10px;
+    background-color: #c97b8b;
+    color: white;
+}
